@@ -50,24 +50,23 @@ export default function MainContent() {
 
 	return (
 		<main id="myContent">
+		<ThemeProvider theme={theme}>
 		<noscript>Good {timeOfDay}!</noscript>
 			<section id="intro" className="myContent style1 fullscreen fade-up">
 				<Container maxWidth="md">
-					<Grid container item md={12} spacing={7} className="split style1">
+					<Grid container item md={12} spacing={2} className="split style1">
 						<Grid item md={5}>
-							<ThemeProvider theme={theme}>
-								<Typography className="animate__animated animate__shakeX" component="h2" variant="h2" align="center" color="primary" gutterBottom>
+							<Typography className="animate__animated animate__shakeX" component="h2" variant="h2" align="center" color="primary" gutterBottom>
 									About Me
-								</Typography>
+							</Typography>
 
-								<Typography variant="subtitle1" align="left" paragraph>
+							<Typography variant="subtitle1" align="left" paragraph>
 									Farida is a programmer and tech enthusiast who like to explore and expand her skills. 
 									She fell in love with web programming since 1st year at college, and always improve and challenge herself in coding practice.
-								</Typography>	
-								<Typography variant="subtitle1" align="left" paragraph>
+							</Typography>	
+							<Typography variant="subtitle1" align="left" paragraph>
 									<strong>Hobies</strong>
-								</Typography>
-							</ThemeProvider>
+							</Typography>
 							<div className={classes.root}>
 								{hobies.map((subjects) => (
 									<Button key={subjects} variant="outlined" color="inherit">{subjects}</Button>
@@ -75,24 +74,11 @@ export default function MainContent() {
 							</div>
 						</Grid>
 						<Grid item md={7}>
-							<ThemeProvider theme={theme}>
-								<Typography className="animate__animated animate__shakeY" color="secondary" component="h2" variant="h2" align="center" gutterBottom>
+							<Typography className="animate__animated animate__shakeY" color="secondary" component="h2" variant="h2" align="center" gutterBottom>
 									MY TechCorner
-								</Typography>
-							</ThemeProvider>
+							</Typography>
 							<Divider variant="middle" className={classes.divStyle1}/>
-
-							<noscript>
-							<div className={classes.root}>
-								{subjectButtons.map((subjects) => (
-									<MyButton key={subjects}
-										variant="outlined" color="inherit" name={subjects} />
-								))}
-							</div>
-							</noscript>
-
 							<MySubject />
-
 						</Grid>
 					</Grid>
 
@@ -100,11 +86,10 @@ export default function MainContent() {
 			</section>
 
 			<section id="proSide" className="myContent style2 fullscreen fade-down">
-				<ThemeProvider theme={theme}>
-					<Typography component="h2" variant="h2" color="inherit" align="center" gutterBottom>
+				
+				<Typography component="h2" variant="h2" color="inherit" align="center" gutterBottom>
 						MY Projects
-					</Typography>
-				</ThemeProvider>
+				</Typography>	
 				<Container className={classes.cardGrid} maxWidth="md">
 					<Grid container spacing={4}>
 					{cards.map((card) => (
@@ -115,6 +100,7 @@ export default function MainContent() {
 					</Grid>
 				</Container>
 			</section>
+			</ThemeProvider>
 		</main>
 	)
 }
