@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/faridatulna/faridatulna.github.io/static/css/main.7e2ff04c.chunk.css",
+    "main.js": "/faridatulna/faridatulna.github.io/static/js/main.49a05698.chunk.js",
+    "main.js.map": "/faridatulna/faridatulna.github.io/static/js/main.49a05698.chunk.js.map",
+    "runtime-main.js": "/faridatulna/faridatulna.github.io/static/js/runtime-main.8f9e60cb.js",
+    "runtime-main.js.map": "/faridatulna/faridatulna.github.io/static/js/runtime-main.8f9e60cb.js.map",
+    "static/js/2.3f37d7ca.chunk.js": "/faridatulna/faridatulna.github.io/static/js/2.3f37d7ca.chunk.js",
+    "static/js/2.3f37d7ca.chunk.js.map": "/faridatulna/faridatulna.github.io/static/js/2.3f37d7ca.chunk.js.map",
+    "static/js/3.15a7330f.chunk.js": "/faridatulna/faridatulna.github.io/static/js/3.15a7330f.chunk.js",
+    "static/js/3.15a7330f.chunk.js.map": "/faridatulna/faridatulna.github.io/static/js/3.15a7330f.chunk.js.map",
+    "index.html": "/faridatulna/faridatulna.github.io/index.html",
+    "static/css/main.7e2ff04c.chunk.css.map": "/faridatulna/faridatulna.github.io/static/css/main.7e2ff04c.chunk.css.map",
+    "static/js/2.3f37d7ca.chunk.js.LICENSE.txt": "/faridatulna/faridatulna.github.io/static/js/2.3f37d7ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f9e60cb.js",
+    "static/js/2.3f37d7ca.chunk.js",
+    "static/css/main.7e2ff04c.chunk.css",
+    "static/js/main.49a05698.chunk.js"
+  ]
+}
