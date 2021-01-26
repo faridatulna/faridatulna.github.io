@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/faridatulna.github.io/static/css/main.7e2ff04c.chunk.css",
-    "main.js": "/faridatulna.github.io/static/js/main.49a05698.chunk.js",
-    "main.js.map": "/faridatulna.github.io/static/js/main.49a05698.chunk.js.map",
-    "runtime-main.js": "/faridatulna.github.io/static/js/runtime-main.9308e55d.js",
-    "runtime-main.js.map": "/faridatulna.github.io/static/js/runtime-main.9308e55d.js.map",
-    "static/js/2.3f37d7ca.chunk.js": "/faridatulna.github.io/static/js/2.3f37d7ca.chunk.js",
-    "static/js/2.3f37d7ca.chunk.js.map": "/faridatulna.github.io/static/js/2.3f37d7ca.chunk.js.map",
-    "static/js/3.15a7330f.chunk.js": "/faridatulna.github.io/static/js/3.15a7330f.chunk.js",
-    "static/js/3.15a7330f.chunk.js.map": "/faridatulna.github.io/static/js/3.15a7330f.chunk.js.map",
-    "index.html": "/faridatulna.github.io/index.html",
-    "static/css/main.7e2ff04c.chunk.css.map": "/faridatulna.github.io/static/css/main.7e2ff04c.chunk.css.map",
-    "static/js/2.3f37d7ca.chunk.js.LICENSE.txt": "/faridatulna.github.io/static/js/2.3f37d7ca.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.7e2ff04c.chunk.css",
+    "main.js": "/static/js/main.49a05698.chunk.js",
+    "main.js.map": "/static/js/main.49a05698.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e8226dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e8226dd.js.map",
+    "static/js/2.3f37d7ca.chunk.js": "/static/js/2.3f37d7ca.chunk.js",
+    "static/js/2.3f37d7ca.chunk.js.map": "/static/js/2.3f37d7ca.chunk.js.map",
+    "static/js/3.15a7330f.chunk.js": "/static/js/3.15a7330f.chunk.js",
+    "static/js/3.15a7330f.chunk.js.map": "/static/js/3.15a7330f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7e2ff04c.chunk.css.map": "/static/css/main.7e2ff04c.chunk.css.map",
+    "static/js/2.3f37d7ca.chunk.js.LICENSE.txt": "/static/js/2.3f37d7ca.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9308e55d.js",
+    "static/js/runtime-main.7e8226dd.js",
     "static/js/2.3f37d7ca.chunk.js",
     "static/css/main.7e2ff04c.chunk.css",
     "static/js/main.49a05698.chunk.js"
